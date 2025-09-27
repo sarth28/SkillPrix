@@ -13,6 +13,7 @@ import {
   Target,
   Flame
 } from "lucide-react";
+import skillprixLogo from "@/assets/skillprix-logo.png";
 
 const Navigation = () => {
   const location = useLocation();
@@ -36,10 +37,11 @@ const Navigation = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="gradient-primary w-8 h-8 rounded-lg flex items-center justify-center">
-              <Star className="w-4 h-4 text-white" />
-            </div>
-            <span className="text-xl font-bold text-primary">EduMate</span>
+            <img 
+              src={skillprixLogo} 
+              alt="SkillPrix Logo" 
+              className="h-8 w-auto"
+            />
           </Link>
 
           {/* Navigation Links */}
