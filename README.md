@@ -19,7 +19,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework:** React 18 + TypeScript
 - **Build Tool:** Vite
