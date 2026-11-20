@@ -1,4 +1,3 @@
-## Project info
 **URL**: https://lovable.dev/projects/de2e5799-094b-45cc-9def-599ee87e8061
 
 # EduMate (SkillPrix) 🎓
